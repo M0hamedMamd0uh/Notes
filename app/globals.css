@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ececec;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999999be;
+}
+
+.not-found {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: rgba(250, 250, 250, 0.9);
+  background-image: linear-gradient(rgba(255, 255, 255, .6) , rgba(255, 255, 255, .6)) ,url("../public/white_paint_background.jpg");
+  background-size: cover;
+}
